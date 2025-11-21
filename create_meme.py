@@ -93,7 +93,7 @@ def create_statistics_meme(
                 color='#444444')
     
     # Add main title
-    fig.suptitle('Selection Bias: How Missing Data Creates Misleading Patterns',
+    fig.suptitle('',
                  fontsize=18,
                  fontweight='bold',
                  y=0.98)
@@ -104,7 +104,7 @@ def create_statistics_meme(
         "but from the systematic removal of data points—demonstrating how "
         "selection bias can create false patterns in your analysis."
     )
-    fig.text(0.5, 0.02, explanation,
+    fig.text(0.5, -0.05, explanation,
              ha='center',
              va='bottom',
              fontsize=9,

@@ -393,7 +393,6 @@ print(f"  - Use mid_tone_center around {tonal_stats['mean']:.2f} to emphasize av
      dpi=150,
      background_color="white"  # or "pink", "lightgray", etc.
  )
- display(Image("my_statistics_meme.png"))
 ```
 
 ## Your Final Submission
@@ -433,7 +432,7 @@ Here's a template for your final section:
 
 # Display the final meme
  from IPython.display import Image, display
- display(Image("my_statistics_meme.png"))
+ display(Image("statistics_meme_completed.png"))
 ```
 
 ### Example Explanation
@@ -446,7 +445,7 @@ Your explanation should be 1-3 sentences. Here's an example:
 
 Here's the completed statistics meme demonstrating selection bias:
 
-![Selection Bias Meme: Four panels showing Reality, Your Model, Selection Bias, and Estimate](my_statistics_meme.png)
+![Selection Bias Meme: Four panels showing Reality, Your Model, Selection Bias, and Estimate](statistics_meme_completed.png)
 
 **Explanation: How missing data can create misleading patterns in data.** This meme illustrates how selection bias creates false patterns in data. The original image represents reality, the stippled version shows our data sample, and when we systematically remove data points in an "S" pattern (selection bias), the resulting estimate becomes distorted—demonstrating how missing data that isn't random can lead to completely misleading conclusions in statistical analysis.
 
